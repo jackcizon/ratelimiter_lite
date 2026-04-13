@@ -19,7 +19,7 @@ class BaseRateLimiter:  # pragma: no cover
 
         e.g: A ratelimiter prototype via `__call__`.
 
-        class RateLimiter:
+        class ratelimiter:
             def __init__(self, func: Callable = None, limit=2, period=1.0):
                 self._func = func
                 self._counter = 0
@@ -41,7 +41,7 @@ class BaseRateLimiter:  # pragma: no cover
                 return self._func(*args, **kwargs)
 
 
-        @RateLimiter(limit=3, period=0.5)
+        @ratelimiter(limit=3, period=0.5)
         def aaa(args):
             print(args)
             time.sleep(0.1)

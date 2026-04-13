@@ -2,7 +2,7 @@ from collections.abc import Callable
 from functools import wraps
 from typing import Any
 
-from ratelimiter.base import BaseRateLimiter
+from ratelimiter_lite.base import BaseRateLimiter
 
 
 def ratelimiter_factory[T: BaseRateLimiter](cls: type[T], limit: int, period: float) -> Callable:

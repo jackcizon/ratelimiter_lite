@@ -3,10 +3,10 @@
 all: pre_commit coverage
 
 lint:
-	poetry run ruff check ratelimiter/ tests/
+	poetry run ruff check ratelimiter_lite/ tests/
 
 format:
-	poetry run ruff format ratelimiter/ tests/
+	poetry run ruff format ratelimiter_lite/ tests/
 
 type:
 	poetry run mypy --config-file mypy.ini

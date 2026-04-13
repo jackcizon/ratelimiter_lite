@@ -1,7 +1,7 @@
 import time
 import threading
 
-from ratelimiter.base import BaseRateLimiter
+from ratelimiter_lite.base import BaseRateLimiter
 
 
 class FixedWindowRateLimiter(BaseRateLimiter):

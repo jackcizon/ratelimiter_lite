@@ -1,9 +1,8 @@
 import time
-
 from concurrent.futures.thread import ThreadPoolExecutor
 
-from ratelimiter.factory import ratelimiter_factory
-from ratelimiter.fixed_window import FixedWindowRateLimiter
+from ratelimiter_lite.factory import ratelimiter_factory
+from ratelimiter_lite.fixed_window import FixedWindowRateLimiter
 
 
 @ratelimiter_factory(FixedWindowRateLimiter, limit=2, period=0.3)

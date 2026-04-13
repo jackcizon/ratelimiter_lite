@@ -12,3 +12,4 @@ docker/data/
 # docs
 docs/_build/
 rate-limit/
+dist/

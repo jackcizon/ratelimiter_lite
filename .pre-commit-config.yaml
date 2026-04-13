@@ -7,14 +7,14 @@ repos:
         entry: poetry run ruff
         language: system
         types: [ python ]
-        args: [ check, ratelimiter/, tests/ ]
+        args: [ check, ratelimiter_lite/, tests/ ]
 
       - id: ruff-format
         name: format
         entry: poetry run ruff
         language: system
         types: [ python ]
-        args: [ format, ratelimiter/, tests/ ]
+        args: [ format, ratelimiter_lite/, tests/ ]
 
       - id: mypy
         name: type
