@@ -6,7 +6,7 @@ Rate Limit Components
    :alt: CI
 
 
-``version: 0.1.1``
+**version: 0.1.1**
 
 Demo Usage:
 ----------------
