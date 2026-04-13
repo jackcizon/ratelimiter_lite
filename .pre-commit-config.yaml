@@ -1,0 +1,23 @@
+# .pre-commit-config.yaml
+repos:
+  - repo: local
+    hooks:
+      - id: ruff-lint
+        name: lint
+        entry: poetry run ruff
+        language: system
+        types: [ python ]
+        args: [ check, ratelimiter/, tests/ ]
+
+      - id: ruff-format
+        name: format
+        entry: poetry run ruff
+        language: system
+        types: [ python ]
+        args: [ format, ratelimiter/, tests/ ]
+
+      - id: mypy
+        name: type
+        entry: poetry run mypy --config-file mypy.ini
+        language: system
+        pass_filenames: false

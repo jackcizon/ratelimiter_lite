@@ -1,0 +1,22 @@
+[project]
+name = "ratelimiter"
+version = "0.1.0"
+description = "A Minium Python Template Project"
+authors = [
+    { name = "jackcizon", email = "jack20021213cn@gmail.com" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.12"
+dependencies = [
+    "pytest (>=9.0.2,<10.0.0)",
+    "coverage (>=7.13.2,<8.0.0)",
+    "ruff (>=0.14.14,<0.15.0)",
+    "mypy (>=1.19.1,<2.0.0)",
+    "pre-commit (>=4.5.1,<5.0.0)",
+    "sphinx (>=9.1.0,<10.0.0)",
+    "sphinx-autobuild (>=2025.8.25,<2026.0.0)",
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

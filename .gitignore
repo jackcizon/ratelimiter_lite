@@ -1,0 +1,14 @@
+*.pyc
+__pycache__/
+.idea/
+*.lock
+.env
+.coverage
+htmlcov/
+
+# Docker volumes
+docker/data/
+
+# docs
+docs/_build/
+rate-limit/
