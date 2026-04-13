@@ -1,6 +1,6 @@
 [project]
 name = "ratelimiter_lite"
-version = "0.1.1"
+version = "0.1.2"
 description = "Rate Limit Components"
 authors = [
     { name = "jackcizon", email = "jack20021213cn@gmail.com" }

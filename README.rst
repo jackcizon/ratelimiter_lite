@@ -6,7 +6,11 @@ Rate Limit Components
    :alt: CI
 
 
-**version: 0.1.1**
+**version: 0.1.2**
+
+.. code-block:: shell
+
+   pip install ratelimiter_lite
 
 Demo Usage:
 ----------------
