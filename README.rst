@@ -6,7 +6,7 @@ Rate Limit Components
    :alt: CI
 
 
-**version: 0.1.3**
+**version: 0.1.4**
 
 .. code-block:: shell
 
