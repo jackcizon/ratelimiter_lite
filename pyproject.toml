@@ -13,6 +13,7 @@ dependencies = []
 [tool.poetry.group.dev.dependencies]
 pre-commit = "*"
 pytest = "*"
+coverage = "*"
 
 [project.optional-dependencies]
 dev = [
