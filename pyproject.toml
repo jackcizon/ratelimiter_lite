@@ -1,7 +1,7 @@
 [project]
 name = "ratelimiter"
 version = "0.1.0"
-description = "A Minium Python Template Project"
+description = "Rate Limit Component"
 authors = [
     { name = "jackcizon", email = "jack20021213cn@gmail.com" }
 ]

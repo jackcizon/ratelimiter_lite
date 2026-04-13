@@ -27,6 +27,6 @@ jobs:
       - name: pre-commit
         run: poetry run pre-commit run -a
 
-    #   - name: Run tests with coverage
-    #     run: |
-    #       poetry run coverage run -m pytest -v
+      - name: Run tests with coverage
+        run: |
+          poetry run coverage run -m pytest -v
