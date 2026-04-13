@@ -6,23 +6,21 @@ Rate Limit Components
    :alt: CI
 
 
-**version: 0.2.0**
+**version: 0.2.1**
+
+Download:
+^^^^^^^^^
 
 .. code-block:: shell
 
    pip install ratelimiter_lite
 
-Demo Usage:
------------
+See docs:
+^^^^^^^^^
 
-test_fixed_window
-^^^^^^^^^^^^^^^^^^
+.. code-block:: bash
 
-.. literalinclude:: ../tests/test_fixed_window.py
-   :language: python
-
-test_sliding_window
-^^^^^^^^^^^^^^^^^^^
-
-.. literalinclude:: ../tests/test_sliding_window.py
-   :language: python
+   git clone https://github.com/jackcizon/ratelimiter_lite.git
+   cd ratelimiter_lite
+   poetry install --with dev
+   make docs
