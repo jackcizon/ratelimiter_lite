@@ -1,7 +1,7 @@
 project = "ratelimiter_lite"
 copyright = "2026, jackcizon"
 author = "jackcizon"
-release = "0.2.1"
+release = "0.3.0"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
